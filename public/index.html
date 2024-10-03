@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descrizione del progetto o del sito web">
+    <meta name="keywords" content="web development, SEO, Tailwind CSS, animazioni, icone">
+    <meta name="author" content="Roberto Celano">
+    <!-- OpenGraph Meta Tags -->
+    <meta property="og:title" content="Titolo del Sito">
+    <meta property="og:description" content="Descrizione del progetto o del sito">
+    <meta property="og:image" content="URL dell'immagine">
+    <meta property="og:url" content="https://www.tuosito.com">
+    <meta property="og:type" content="website">
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Titolo del Sito">
+    <meta name="twitter:description" content="Descrizione del progetto o del sito">
+    <meta name="twitter:image" content="URL dell'immagine">
+    <!-- Link Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-XXXXX-Y');
+    </script>
+    <!-- Tailwind CSS -->
+    <link href="output.css" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Heroicons -->
+    <script src="https://unpkg.com/heroicons@1.0.1/outline/index.js"></script>
+    <!-- Title -->
+    <title>Titolo del Progetto</title>
+</head>
+<body class="bg-red-100 text-blue-900">
+
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-3xl font-bold">Progetto Base</h1>
+    </header>
+
+    <main class="container mx-auto p-6">
+        <h2 class="text-2xl font-semibold mb-4">Benvenuto nel progetto base</h2>
+        <p>Inizia a costruire il tuo sito da qui!</p>
+    </main>
+
+    <footer class="bg-blue-600 text-white p-4 text-center">
+        <p>© 2024 Roberto Celano - All rights reserved</p>
+    </footer>
+
+    <!-- ScrollReveal.js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('.container', { delay: 200 });
+    </script>
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- JavaScript Optimized Loading -->
+    <script defer src="../src/app.js"></script>
+
+</body>
+</html>
