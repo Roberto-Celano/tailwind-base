@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tailwindcss -i ./src/input.css -o ./public/output.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+ "watch": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
   },
   "keywords": [],
   "author": "Roberto Celano",

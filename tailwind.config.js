@@ -2,6 +2,7 @@ module.exports = {
   content: [
     './public/**/*.html',//Cerca file HTML nella cartella public
     './src/**/*.js',// Cerca file JavaScript nella cartella src
+    './node_modules/flowbite/**/*.js', // Necessario per Flowbite
   ],
   theme: {
     extend: {},
@@ -17,5 +18,3 @@ module.exports = {
     themes: ["light", "dark", "cupcake"],  // Aggiungi i temi di DaisyUI (opzionale)
   },
 }
-
-
