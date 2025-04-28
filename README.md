@@ -1,4 +1,10 @@
 # 🚀 Progetto Base con Tailwind CSS
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![DaisyUI](https://img.shields.io/badge/DaisyUI-FF69B4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Flowbite](https://img.shields.io/badge/Flowbite-1E40AF?style=for-the-badge&logo=flowbite&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
 Repository che fornisce una base solida per creare progetti web con **Tailwind CSS**, includendo la configurazione di strumenti avanzati come **DaisyUI** e **Flowbite**, e ottimizzazioni SEO.
 
